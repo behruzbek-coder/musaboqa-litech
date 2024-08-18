@@ -1,0 +1,83 @@
+.nav_bar{
+    background-color: #0D263B;
+    height: 80px;
+    padding: 14px 408px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left h1{
+    color: #fff;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.center a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.right{
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+}
+
+.right button{
+    padding: 22px 60px;
+    background: transparent;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: #ffff;
+    transition: 0.5s;
+}
+
+.right button:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.ortasi{
+    padding: 10px;
+    padding-left: 400px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    flex-direction: column;
+}
+.lopi{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
