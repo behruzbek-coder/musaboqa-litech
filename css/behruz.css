@@ -1,0 +1,30 @@
+.behruz_nav{
+        background-color: #0D263B;
+        color: white;
+        font-family: sans-serif;
+}
+.behruzbek_nav_list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+}
+.behruz_center {
+        display: flex;
+        gap: 64px;
+    
+}
+.behruz_center a{
+        text-decoration: none;
+        color: white;
+}
+
+.behtruzbek_nav_right button{
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        padding: 12px 40px;
+}
+.behtruzbek_nav_right button:hover{
+        
+}
