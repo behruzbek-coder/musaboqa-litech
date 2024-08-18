@@ -71,5 +71,100 @@
 .behruz_top{
         text-align: center;
         margin: 64px;
-        
+}
+.crd_behruz{
+        width: 380px;
+        border-radius: 5px;
+        transition: 0.5s;
+}
+.crd_behruz:hover{
+        box-shadow: 2.5px 5px 5px 6px rgba(0, 0, 0, 0.207);
+
+}
+.behruz_br{
+        width: 65px;
+        background-color: black;
+        transform: translateY(-10px);
+
+}
+.behruz_fl{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.lt{
+        align-items: center;
+}
+.img1234{
+        padding-top: 9px;
+}
+.behruzbek_images{
+        transform: translateY(-70px);
+        /* transform: translate(-70px); */
+        padding-left: 90px;
+}
+.container_card{
+        display: flex;
+        gap: 20px;
+}
+.container_card{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.behruzbek_uzb_btn{
+        background-color: #0061DF;
+        color: white;
+        padding: 12px 85.5px;
+}
+.behruzbek_top{
+        text-align: center;
+        margin: 20px 0;
+}
+                      /* footer */
+.behruz_foter{
+        background-color: #0D263B;
+        color: white;
+}
+.foter_list_crd{
+        width: 295px;
+       
+}
+/* .foter_list_c{
+        display: flex;
+        gap :10px;
+} */
+.foter_list_ora{
+        width: 85px;
+
+}
+.foter_list_c{
+        width: 142px;
+}
+.foter_list_ca{
+        width: 142px;
+}
+.foter_list_car{ 
+        width: 85px;
+}
+.foter_list_crd{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 130px;
+}
+.foter_top{
+        display: flex;
+        flex-direction: row;
+        gap :30px;
+}
+
+.foter_bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.foter_bottom_right a{
+        color: #fff;
+        text-decoration: none;
 }
