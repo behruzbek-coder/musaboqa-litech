@@ -24,7 +24,52 @@
         background-color: transparent;
         color: white;
         padding: 12px 40px;
+        transition: 0.5s      ;
 }
-/* .behtruzbek_nav_right button:hover{
+.behtruzbek_nav_right button:hover{
+        background-color: white;
+        color: #0D263B;
+        border: 1px solid black;
+}
+.navcha_list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px auto;
 
-} */
+}
+.fl{
+        display: flex;
+        gap: 30px;
+        margin-right: 10px;
+}
+
+.navcha_right{
+        display: flex;
+}
+.behruz_h2{
+        border: 0.5px solid #0000002a;
+        padding: 12px 29px;
+}
+.behruz_btn{
+        padding: 12px 54px;
+        display: flex;
+        gap: 12px;
+        color: white;
+        background-color:#0061DF;
+        border: none;
+        padding-top: 18px;
+}
+.navcha_left a{
+        color: black;
+        text-decoration: none;
+}
+.navcha_left{
+        border: 0.5px solid #0000002a;
+        padding: 12px 29px;
+}
+.behruz_top{
+        text-align: center;
+        margin: 64px;
+        
+}
